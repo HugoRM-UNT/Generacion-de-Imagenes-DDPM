@@ -1,0 +1,15 @@
+# --- Dependencias de la app (también para Streamlit Cloud) ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.40
+numpy>=1.26
+pandas>=2.0
+Pillow>=10
+scikit-image>=0.22
+scipy>=1.11
+matplotlib>=3.9
+psutil>=5.9
+# --- Generación en vivo (modelo) ---
+torch>=2.2
+diffusers>=0.30
+huggingface_hub>=0.24
+safetensors

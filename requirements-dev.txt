@@ -1,0 +1,5 @@
+# Solo para regenerar/ejecutar el notebook
+-r requirements.txt
+nbformat
+nbclient
+ipykernel

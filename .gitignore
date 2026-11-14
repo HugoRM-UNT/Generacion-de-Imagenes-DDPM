@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+# Los pesos van en model/ddpm-cifar10-32/unet en 2 fragmentos (<100 MB c/u, límite de GitHub). No se ignoran.
+.DS_Store
+model/ddpm-cifar10-32/unet/diffusion_pytorch_model.safetensors

@@ -1,0 +1,70 @@
+{
+  "model_id": "model/ddpm-cifar10-32",
+  "baseline": [
+    "DDPM",
+    100
+  ],
+  "configs": [
+    [
+      "DDPM",
+      25
+    ],
+    [
+      "DDPM",
+      50
+    ],
+    [
+      "DDPM",
+      100
+    ],
+    [
+      "DDPM",
+      250
+    ],
+    [
+      "DDIM",
+      25
+    ],
+    [
+      "DDIM",
+      50
+    ],
+    [
+      "DDIM",
+      100
+    ],
+    [
+      "DDIM",
+      250
+    ]
+  ],
+  "comparison_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "exploration_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "resolution": 32,
+  "batch_size_timing": 1,
+  "ddim_eta": 0.0,
+  "started": "2026-11-14T11:57:17",
+  "notes": "Semillas de comparaci\u00f3n reservadas; modelo congelado; no se ajusta nada con ellas."
+}

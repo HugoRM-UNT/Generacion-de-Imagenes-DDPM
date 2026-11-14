@@ -1,0 +1,40 @@
+{
+  "model_id": "model/ddpm-cifar10-32",
+  "baseline": [
+    "DDPM",
+    100
+  ],
+  "configs": [
+    [
+      "DDPM",
+      100
+    ],
+    [
+      "DDIM",
+      25
+    ]
+  ],
+  "comparison_seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "exploration_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "resolution": 32,
+  "batch_size_timing": 1,
+  "ddim_eta": 0.0,
+  "started": "2026-11-14T16:24:13",
+  "notes": "Semillas de comparaci\u00f3n reservadas; modelo congelado; no se ajusta nada con ellas."
+}

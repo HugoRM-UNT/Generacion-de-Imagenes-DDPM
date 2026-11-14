@@ -1,0 +1,101 @@
+[
+  {
+    "bloque": "conv_in",
+    "forma_salida": [
+      128,
+      32,
+      32
+    ],
+    "parametros": 3584
+  },
+  {
+    "bloque": "down_blocks[0] DownBlock2D",
+    "forma_salida": [
+      128,
+      16,
+      16
+    ],
+    "parametros": 870272
+  },
+  {
+    "bloque": "down_blocks[1] AttnDownBlock2D",
+    "forma_salida": [
+      256,
+      8,
+      8
+    ],
+    "parametros": 3480320
+  },
+  {
+    "bloque": "down_blocks[2] DownBlock2D",
+    "forma_salida": [
+      256,
+      4,
+      4
+    ],
+    "parametros": 3215104
+  },
+  {
+    "bloque": "down_blocks[3] DownBlock2D",
+    "forma_salida": [
+      256,
+      4,
+      4
+    ],
+    "parametros": 2625024
+  },
+  {
+    "bloque": "mid_block UNetMidBlock2D",
+    "forma_salida": [
+      256,
+      4,
+      4
+    ],
+    "parametros": 2888704
+  },
+  {
+    "bloque": "up_blocks[0] UpBlock2D",
+    "forma_salida": [
+      256,
+      8,
+      8
+    ],
+    "parametros": 6692608
+  },
+  {
+    "bloque": "up_blocks[1] UpBlock2D",
+    "forma_salida": [
+      256,
+      16,
+      16
+    ],
+    "parametros": 6692608
+  },
+  {
+    "bloque": "up_blocks[2] AttnUpBlock2D",
+    "forma_salida": [
+      256,
+      32,
+      32
+    ],
+    "parametros": 7155712
+  },
+  {
+    "bloque": "up_blocks[3] UpBlock2D",
+    "forma_salida": [
+      128,
+      32,
+      32
+    ],
+    "parametros": 1789952
+  },
+  {
+    "bloque": "conv_out",
+    "forma_salida": [
+      3,
+      32,
+      32
+    ],
+    "parametros": 3459
+  }
+]

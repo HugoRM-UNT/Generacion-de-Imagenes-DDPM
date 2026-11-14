@@ -1,0 +1,15 @@
+{
+  "seed": 100,
+  "steps": 25,
+  "device": "cpu",
+  "DDPM": {
+    "identical_same_seed": true,
+    "max_abs_pixel_diff_same_seed": 0,
+    "differs_with_other_seed": true
+  },
+  "DDIM": {
+    "identical_same_seed": true,
+    "max_abs_pixel_diff_same_seed": 0,
+    "differs_with_other_seed": true
+  }
+}
